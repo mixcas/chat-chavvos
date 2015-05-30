@@ -1,0 +1,12 @@
+<template name="item">
+  <div class="container">
+    <a href="{{pathFor 'items'}}"><span class="genericon genericon-previous"></span> Back</a>
+    {{#with item}}
+      <div class="item">
+        <h3>{{title}}</h3>
+        <p>{{body}}</p>
+        <h5><a href="#" class="delete"><span class="genericon genericon-trash"></span></a></h5>
+      </div>
+    {{/with}}
+  </div>
+</template>
