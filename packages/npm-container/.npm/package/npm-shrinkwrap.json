@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "webrtc2images": {
+      "version": "1.4.4",
+      "dependencies": {
+        "lodash.defaults": {
+          "version": "2.4.1",
+          "dependencies": {
+            "lodash.keys": {
+              "version": "2.4.1",
+              "dependencies": {
+                "lodash._isnative": {
+                  "version": "2.4.1"
+                },
+                "lodash.isobject": {
+                  "version": "2.4.1"
+                },
+                "lodash._shimkeys": {
+                  "version": "2.4.1"
+                }
+              }
+            },
+            "lodash._objecttypes": {
+              "version": "2.4.1"
+            }
+          }
+        }
+      }
+    }
+  }
+}
