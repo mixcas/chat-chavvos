@@ -66,7 +66,15 @@ Router.map(function() {
   // Pages
 
   this.route('homepage', {
-    path: '/'
+    path: '/',
+    waitOn: function() {
+      return Meteor.subscribe('allMessages');
+    },
+    data: function() {
+      return {
+        messages: Messages.find()
+      }
+    },
   });
 
   this.route('content');
