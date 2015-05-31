@@ -1,3 +1,8 @@
 {
-  "webrtc2images": "1.4.4"  
+  "webrtc2images": "1.4.4",
+  "async": "1.0.0",
+  "data-uri-to-buffer": "0.0.3",
+  "glob": "5.0.10",
+  "fibers": "1.0.5",
+  "uuid": "2.0.1"
 }
