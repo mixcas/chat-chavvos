@@ -25,9 +25,10 @@ Messages.allow({
 // Methods
 
 Meteor.methods({
-  createMessage: function(message){
+  createMessage: function(message, videos){
     Messages.insert({
       text: message,
+      videos: videos,
       createdAt: new Date()
     });
   },
